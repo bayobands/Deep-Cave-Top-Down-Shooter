@@ -12,8 +12,6 @@ class Player extends Phaser.GameObjects.Sprite {
         this.playerSpeed = playerSpeed;
 
         scene.add.existing(this);
-
-        return this;
     }
 
     update() {

@@ -1,17 +1,8 @@
 class MainScreen extends Phaser.Scene {
     constructor() {
         super("MainScreen");
-
-        // Initialize a class variable "my" which is an object.
-        // The object has one property, "sprite" which is also an object.
-        // This will be used to hold bindings (pointers) to created sprites.
-        this.my = {sprite: {}};   
-        
-        // Create a flag to determine if the "bullet" is currently active and moving
-        this.bulletActive = false;
-
-        this.keySpace =null;
-        this.keyC =null;
+        this.keySpace = null;
+        this.keyC = null;
     }
     preload() {
         this.load.setPath("./assets/");

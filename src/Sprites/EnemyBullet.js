@@ -6,7 +6,6 @@ class EnemyBullet extends Phaser.GameObjects.Sprite {
         this.speed = 5;
         this.direction = 1; // Downward by default
         scene.add.existing(this);
-        return this;
     }
 
     update() {
