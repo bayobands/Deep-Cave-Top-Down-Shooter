@@ -5,7 +5,7 @@
 Battle waves of enemies across multiple stages in a fast-paced arcade shooter focused on responsive movement and escalating difficulty.
 
 ## PLAY NOW
-![Deep Cave](https://bayobands.github.io/Deep-Cave-Top-Down-Shooter/)
+[Deep Cave](https://bayobands.github.io/Deep-Cave-Top-Down-Shooter/)
 
 ## Built With
 - Phaser 3
